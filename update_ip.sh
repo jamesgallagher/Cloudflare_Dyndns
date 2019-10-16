@@ -29,7 +29,6 @@ if [ "$1" ]; then
 					        exit 0
 			fi
 		fi
-
 									
 		if [ -f $id_file ] && [ $(wc -l $id_file | cut -d " " -f 1) == 2 ]; then
 			zone_identifier=$(head -1 $id_file)
