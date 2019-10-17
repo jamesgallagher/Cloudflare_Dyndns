@@ -1,0 +1,4 @@
+auth_email="your@emailaddress.com"
+auth_key="yourAPIkey"
+zone_name="targetdomain.com"
+record_name="dns.entry.com"
